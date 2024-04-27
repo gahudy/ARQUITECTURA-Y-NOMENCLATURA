@@ -1,3 +1,17 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #242424;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
 .main_nav {
   list-style: none;
   width: 500px;
@@ -17,18 +31,11 @@
   margin-top: 20px;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-body {
-  background-color: #242424;
-  color: white;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+main {
+  margin: 50 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .list {
@@ -43,17 +50,26 @@ body {
 .list__article-efect {
   display: flex;
   justify-content: center;
-  background: linear-gradient(60deg, red, orange);
+  background: linear-gradient(100deg, red, orange);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.footer {
-  width: 100%;
+.MyFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.footer__booton {
+.MyFooter--Title {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+.MyFooter---span {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
 }/*# sourceMappingURL=style.css.map */

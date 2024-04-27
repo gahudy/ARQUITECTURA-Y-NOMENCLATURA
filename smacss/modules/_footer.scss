@@ -1,0 +1,15 @@
+.MyFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between  ;
+}
+.MyFooter--Title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.MyFooter---span{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}

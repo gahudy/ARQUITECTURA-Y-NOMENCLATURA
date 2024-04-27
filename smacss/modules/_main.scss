@@ -1,0 +1,27 @@
+main {
+    margin: 50 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+.list {
+    display: flex;
+    justify-content: center; 
+   
+}
+
+.list__article {
+    justify-content: center;
+ 
+}
+.list__article-efect {
+    display: flex;
+    justify-content: center;
+    background:  linear-gradient(100deg, red, orange);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
