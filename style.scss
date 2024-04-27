@@ -1,0 +1,29 @@
+@import './smacss/modules/nav';
+@import './smacss/base/base';
+
+.list {
+    display: flex;
+    justify-content: center; 
+}
+
+.list__article {
+    justify-content: center;
+ 
+}
+.list__article-efect {
+    display: flex;
+    justify-content: center;
+    background:  linear-gradient(60deg, red, orange);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.footer {
+    width: 100%;
+}
+.footer__booton{
+    display: flex;
+    justify-content: center;
+}
+
+

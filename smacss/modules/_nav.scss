@@ -1,0 +1,23 @@
+.main_nav {
+    list-style: none;
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.main_nav__iten {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   width: 500px;
+   height: 50px;
+   margin-top: 20px;
+  
+}
+
+
